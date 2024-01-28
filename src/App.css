@@ -487,9 +487,7 @@ h3 span {
   .text {
     width: 70% !important;
   }
-  .margin_content {
-    margin: 1.5rem auto;
-  }
+
   .right {
     display: none !important;
   }
