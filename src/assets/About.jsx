@@ -8,25 +8,35 @@ const About = () => {
         <h2>About Me</h2>
         <div className="upper">
           <div className="left">
-            <h3>OSAS</h3>
-            <p>
+            {/* <h3>OSAS</h3> */}
+            {/* <p>
               Hi, my name is Virtuous Oselumese Irianele (a flex right?), The
               egbon adugbo, Community lead and more.
-            </p>
-            <p>
-              A results-oriented, enthusiastic and creative Brand Communications
-              Strategist and Consultant with effective communication, digital
-              and product marketing strategies to drive team and company growth
-              in the long run. Over time, I have become invested in being
-              value-driven by organising marketing campaigns to ensure that
-              brands and users become connected through detailed storytelling. I
-              collaborate with clients to develop a social media content
-              calendar that defines the engagement needs at required times
-              making use of my knowledge of content creation to create engaging
-              photos, captions and graphics. SEO/Google Analytics, Product
-              Marketing, Brand Storytelling and communication and content
-              creation are some of my core strength areas as a Brand
-              Communications Strategist.
+            </p> */}
+            <p id="stylep">
+              <p>
+                Osas is a creative story teller with a growing repute in the
+                media and communications industry. She uses her platforms to
+                share relatable and enjoyable content for young people. Osas is
+                passionate about the wellbeing and personal development of her
+                audience, hence the need to be a community manager.
+              </p>
+              <p>
+                Over the past year, she has trained young people to be
+                disciplined with whatever they do. She has hosted saving
+                challenges for people to build discipline, hosted community
+                events so members of the community come together to network and
+                unwind, built a community of readers and people interested in
+                bettering every part of their lives.
+              </p>
+              <p>
+                Osas is also a brand and content strategist with a few brands in
+                her bag. She is also an influencer marketing manager and she
+                helps connect brands with the right influencers. Osas’
+                authenticity and delivery is topnotch and she has been able to
+                work with brands like coca- cola, Malta guinness, Molped,
+                BayIce, Bankzhomes, Piggyvest amongst others.
+              </p>
             </p>
             <div className="table">
               <div className="table1">
@@ -36,42 +46,46 @@ const About = () => {
                 </p>
                 <p>
                   Group:
-                  <Link to=""> HypeSquad NG</Link>
+                  <Link to="https://www.instagram.com/hypesquadng/">
+                    HypeSquad NG
+                  </Link>
                 </p>
                 <p>
                   Mail:
-                  <Link to="mailto:"> osas@gmail.com</Link>
-                </p>
-                <p>
-                  Instagram:
-                  <Link to="https://www.instagram.com/virtuousi/"> @osas</Link>
+                  <Link to="mailto:osasirianele@gmail.com">
+                    osasirianele@gmail.com
+                  </Link>
                 </p>
               </div>
               <div className="table2">
                 <p>
-                  Snapchat:
-                  <Link> @osas</Link>
+                  Instagram:
+                  <Link to="https://www.instagram.com/virtuousi/">
+                    Virtuousi
+                  </Link>
                 </p>
                 <p>
-                  TikTok:
-                  <Link> @osas</Link>
+                  Twitter:
+                  <Link to="https://twitter.com/virtuousii">Virtuousii</Link>
                 </p>
                 <p>
                   LinkedIn:
-                  <Link> @osas</Link>
+                  <Link to="https://linkedin.com/in/virtuous-irianele">
+                    LinkedIn
+                  </Link>
                 </p>
-                <p>
+                {/* <p>
                   What I do:
                   <span> A lot😁</span>
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
-          <div className="right">
-            {/* <div className="rtext">Hype Squad NG</div> */}
+          {/* <div className="right"> */}
+          {/* <div className="rtext">Hype Squad NG</div> */}
 
-            <img src="/saa.png" alt="" />
-          </div>
+          {/* <img src="/saa.png" alt="" /> */}
+          {/* </div> */}
         </div>
         <div className="lower">
           <h2 className="gallery">Gallery</h2>
@@ -83,16 +97,16 @@ const About = () => {
               <img src="/bg.png" alt="" />
             </li>
             <li>
-              <img src="/hs.png" alt="" />
+              <img src="/osas3.png" alt="" />
             </li>
             <li>
-              <img src="/osas.png" alt="" />
+              <img src="/osas4.png" alt="" />
             </li>
             <li>
-              <img src="/bg.png" alt="" />
+              <img src="/osas2.png" alt="" />
             </li>
             <li>
-              <img src="/hs.png" alt="" />
+              <img src="/osas5.png" alt="" />
             </li>
           </ul>
         </div>

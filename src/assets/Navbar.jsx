@@ -98,7 +98,7 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <Link className="mail" to="mailto:">
+          <Link className="mail" to="mailto:osasirianele@gmail.com">
             <IoMail />
           </Link>
         </div>

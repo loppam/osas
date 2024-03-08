@@ -1,5 +1,5 @@
 import React from "react";
-import { FaTiktok, FaInstagram, FaSnapchat } from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
@@ -12,32 +12,48 @@ const Contact = () => {
           <div className="contact_left">
             <h4>Let's make magic</h4>
             <p className="contact_par">
-              I am open to dicussing about how to make your brand global. A town
-              hall different from bala blu, blue blu bulaba. broom broom broom
-              brooooooooom.
+              Let’s work together to take your brand to the next level.
             </p>
-            <div className="tablee">
-              <p>
-                <AiOutlineMail /> <Link>@osas</Link>
-              </p>
-              <p>
-                <FaSnapchat /> <Link>@osas</Link>
-              </p>
-              <p>
-                <FaInstagram /> <Link>@osas</Link>
-              </p>
-              <p>
-                <FaTiktok /> <Link>@osas</Link>
-              </p>
+            <div className="tablee_flex">
+              <div className="tablee">
+                <p>
+                  <AiOutlineMail />
+                  <Link to="mailto:osasirianele@gmail.com">Mail</Link>
+                </p>
+                <p>
+                  <FaInstagram />
+                  <Link to="https://instagram.com/virtuousi">Instagram</Link>
+                </p>
+              </div>
+
+              <div className="tablee">
+                <p>
+                  <FaTwitter />
+                  <Link to="https://twitter.com/virtuousii">Twitter</Link>
+                </p>
+                <p>
+                  <FaLinkedin />
+                  <Link to="https://linkedin.com/in/virtuous-irianele">
+                    LinkedIn
+                  </Link>
+                </p>
+              </div>
             </div>
           </div>
           <div className="contact_right">
             <h4>Get in touch</h4>
             <form action="">
-              <input type="text" placeholder="Fullname"/>
+              <input type="text" placeholder="Full Name" />
               <input type="email" placeholder="Enter your email" />
               <input type="text" placeholder="Subject" />
-              <textarea name="" id="" cols="30" rows="5" placeholder="Your message"></textarea>
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="5"
+                placeholder="Your message"
+              ></textarea>
+              <button>Send</button>
             </form>
           </div>
         </div>

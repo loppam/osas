@@ -14,22 +14,18 @@ const Head = () => {
               I am{" "}
               <ReactTyped
                 strings={[
-                  "a Brand Strategist.",
-                  "a Content Writer..",
-                  "a Storyteller...",
-                  "The Egbon Adugbo!",
+                  "a Brand and content strategist.",
+                  "a Community manager.",
+                  "an Influencer marketing strategist",
+                  "a Talent manager",
+                  "a Content creator",
                 ]}
                 typeSpeed={50}
                 backSpeed={40}
                 loop
               />
             </div>
-            <p>
-              A town hall different from bala blu, blue blu bulaba. broom broom
-              broom brooooooooom. Bala blu blue blu bulaba. A town hall
-              different from bala blu, blue blu bulaba. broom broom broom
-              brooooooooom. Bala blu blue blu bulaba.
-            </p>
+            <p>Welcome to my page.</p>
           </div>
           <Atropos activeOffset={40} shadowScale={1.05}>
             <img
